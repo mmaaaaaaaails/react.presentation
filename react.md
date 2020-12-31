@@ -18,8 +18,8 @@ When creating a React component, the component's name must start with an upper c
 The component has to include the extends React.Component statement, this statement creates an inheritance to React.Component, and gives your component access to React.Component's functions.
 The component also requires a render() method, this method returns HTML.
 
-Now your React application has a component called Car, which returns a <h2> element.
-To use this component in your application, use similar syntax as normal HTML: <Car />
+Now your React application has a component called Car, which returns a h2 element.
+To use this component in your application, use similar syntax as normal HTML: Car
 
 Here is the same example as above, but created using a Function component instead.
 A Function component also returns HTML, and behaves pretty much the same way as a Class component
@@ -37,7 +37,9 @@ Note that JSX does not use quotes around the HTML text string.
 
 Why use JSX:
 
-
+* It is faster than regular JavaScript because it performs optimization while translating the code to JavaScript.
+* It is type-safe, and most of the errors can be found at compilation time.
+* It makes easier to create templates.
 
 ### Virtual DOM
 
